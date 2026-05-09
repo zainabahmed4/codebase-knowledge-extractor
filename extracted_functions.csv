@@ -1,0 +1,7 @@
+function_name,description,parameters
+get_weather,# Function to fetch and display weather information based on the city,['city_name']
+search_city,"# Function to handle the search action when the user clicks the ""Search"" button",[]
+on_enter_press,# Function to bind the Enter key to the search function,['event']
+resize_bg,# Function to handle resizing of the background image when the window is resized,['event']
+set_background,# Function to set the background image (path is passed as argument),['image_path']
+show_default_info,# Function to show the default weather info for the default city,[]
