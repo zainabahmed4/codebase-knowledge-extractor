@@ -1,0 +1,44 @@
+[
+    {
+        "function_name":"get_weather",
+        "description":"Function to fetch and display weather information based on the city",
+        "parameters":"city_name",
+        "file_name":"weather_app.py",
+        "purpose":"API\/data fetching"
+    },
+    {
+        "function_name":"search_city",
+        "description":"Function to handle the search action when the user clicks the \"Search\" button",
+        "parameters":null,
+        "file_name":"weather_app.py",
+        "purpose":"user interaction"
+    },
+    {
+        "function_name":"on_enter_press",
+        "description":"Function to bind the Enter key to the search function",
+        "parameters":"event",
+        "file_name":"weather_app.py",
+        "purpose":"event handling"
+    },
+    {
+        "function_name":"resize_bg",
+        "description":"Function to handle resizing of the background image when the window is resized",
+        "parameters":"event",
+        "file_name":"weather_app.py",
+        "purpose":"UI handling"
+    },
+    {
+        "function_name":"set_background",
+        "description":"Function to set the background image (path is passed as argument)",
+        "parameters":"image_path",
+        "file_name":"weather_app.py",
+        "purpose":"UI handling"
+    },
+    {
+        "function_name":"show_default_info",
+        "description":"Function to show the default weather info for the default city",
+        "parameters":null,
+        "file_name":"weather_app.py",
+        "purpose":"UI handling"
+    }
+]
